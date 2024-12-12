@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Samsung 65-inch QLED 4K Smart TV".to_string(),
+            price: 1299.99,
+            description: "Immerse yourself in breathtaking clarity with the Samsung QLED 4K Smart TV. Quantum Dot technology delivers vibrant colors and stunning contrast for an unparalleled viewing experience.".to_string(),
+            image: "/samsung-tv.jpg".to_string()
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "Apple MacBook Pro 14-inch".to_string(),
+            price: 1999.99,
+            description: "Unleash your creativity and productivity with the powerful Apple MacBook Pro. Featuring the M2 Pro chip, stunning Liquid Retina XDR display, and all-day battery life.".to_string(),
+            image: "/macbook-pro.jpg".to_string()
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "Sony WH-1000XM5 Noise Canceling Headphones".to_string(),
+            price: 399.99,
+            description: "Experience audio perfection with Sony's premium noise-canceling headphones. Advanced sound technology, exceptional comfort, and industry-leading noise cancellation.".to_string(),
+            image: "/sony-headphones.jpg".to_string()
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "DJI Mavic 3 Drone".to_string(),
+            price: 2049.99,
+            description: "Capture breathtaking aerial photography with the DJI Mavic 3. Professional-grade camera, extended flight time, and intelligent tracking features for content creators.".to_string(),
+            image: "/dji-drone.jpg".to_string()
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "LG OLED C2 55-inch 4K Smart TV".to_string(),
+            price: 1499.99,
+            description: "Dive into the world of perfect blacks and infinite contrast with the LG OLED C2. Self-lit pixels deliver stunning picture quality for the ultimate home entertainment experience.".to_string(),
+            image: "/lg-oled-tv.jpg".to_string()
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Xbox Series X Gaming Console".to_string(),
+            price: 499.99,
+            description: "Next-generation gaming power meets lightning-fast load times. The Xbox Series X delivers true 4K gaming, ray tracing, and access to hundreds of incredible games.".to_string(),
+            image: "/xbox-series-x.jpg".to_string()
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "iPad Pro 12.9-inch Wi-Fi + Cellular".to_string(),
+            price: 1599.99,
+            description: "Powerful, versatile, and portable. The iPad Pro features the M2 chip, stunning Liquid Retina XDR display, and supports Apple Pencil and Magic Keyboard.".to_string(),
+            image: "/ipad-pro.jpg".to_string()
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "Bose QuietComfort Ultra Earbuds".to_string(),
+            price: 299.99,
+            description: "Immerse yourself in world-class noise cancellation and premium sound. Bose QuietComfort Ultra Earbuds deliver exceptional audio quality and comfort.".to_string(),
+            image: "/bose-earbuds.jpg".to_string()
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "GoPro HERO11 Black".to_string(),
+            price: 399.99,
+            description: "Capture life's most exciting moments in stunning 5.3K video and 27MP photos. The GoPro HERO11 Black offers advanced stabilization and rugged waterproof design.".to_string(),
+            image: "/gopro-hero11.jpg".to_string()
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
+            name: "Samsung Galaxy S23 Ultra Smartphone".to_string(),
+            price: 1199.99,
+            description: "Revolutionize your mobile experience with the Samsung Galaxy S23 Ultra. Featuring a 200MP camera, S Pen integration, and powerful performance in a sleek design.".to_string(),
+            image: "/samsung-s23-ultra.jpg".to_string()
         }
     ]
 }
